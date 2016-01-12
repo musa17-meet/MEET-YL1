@@ -1,0 +1,8 @@
+def palidrome(m):
+	if m[::-1]==m:		
+		print ("true")
+		
+
+print("please enter a string")
+m=input()
+palidrome(m)
